@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="static/main.css">
+        <title>
+            Techie Delight
+        </title>
+        <link rel="icon" href="/static/logo.png">
+    </head>
+    <body>
+        <div class='ab'>
+            <ul>
+                <li><a href="/" style="text-decoration:none">Home</a></li>
+                <li><a href='/predict' style="text-decoration:none">Prediction</a></li>
+                <li><a href="#" style="text-decoration:none"></a>Current Trend</li>
+                        <li><a href="#" style="text-decoration:none"></a>About Us</li>
+                <li id='u5'>Login</li>
+                <li id='u5'>Sign Up</li>
+            </ul>
+      </div>
+      <div class="slides_container">
+        <img class="mySlides" src="static/img1.jpg" style="width:100%;height:70%">
+        <img class="mySlides" src="static/img2.jpg" style="width:100%;height:70%">
+        <img class="mySlides" src="static/img3.jpg" style="width:100%;height:70%">
+      </div>
+    </body>
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+        <marquee>
+                <table class="newsbox" scrollamount="1" >
+                    <tr>
+                        <td>
+                            <div>
+                                <a style="display:block;color:black; width: 200px; margin-left: 20px" font-family: "Comic Sans MS" href="https://www.cnbc.com/2017/12/03/bitcoin-hits-all-time-high-above-11700-as-recovery-accelerates.html" target="_blank" ><font color="808080"><b>Bitcoin hits all-time high above $11,700 as recovery accelerates</font color></b></a>
+                            </div>
+                        </td>
+                    <td>
+                            <div>
+                                <a style="display:block;color:black; width: 200px; margin-left: 20px" href="http://beta.latimes.com/business/la-fi-markets-20171129-story.html" target="_blank" ><b><font color="808080">Tech stocks drop steeply, offsetting bank and healthcare shares' rise</font color></b></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <a style="display:block;color:black; width: 200px; margin-left: 20px" href="https://www.cnbc.com/2017/11/30/amazon-gets-its-most-bullish-call-yet-1500-price-target.html" target="_blank" ><b><font color="808080">Wall Street is giddy over Amazon shares, gets its most bullish call yet: $1,500 price target</font color></b></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <a style="display:block;color:black; width: 200px; margin-left: 20px" href="http://fortune.com/2017/03/31/amazon-stock-trillion-dollar-company-apple-tesla-google/" target="_blank" ><b><font color="808080">Amazon and the Race to Be the First $1 Trillion Company</font color></b></a>
+                            </div>
+                            
+                        </td>
+                        <td>
+                            <div>
+                                <a style="display:block;color:black; width: 200px; margin-left: 20px" href="https://www.forbes.com/sites/timworstall/2014/04/13/fun-number-apple-has-twice-as-much-cash-as-the-us-government/#790e34d75570" target="_blank" ><b><font color="808080">Apple Has Twice As Much Cash As The US Government</font color></b></a>
+                            </div>
+                            
+                        </td>
+                        </tr>
+                </table>
+        </marquee>
+</html>
+
+

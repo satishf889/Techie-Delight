@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="static/main.css">
+        <title>
+            Search
+        </title>
+        <link rel="icon" href="/static/logo.png">
+    </head>
+    <body>
+            <div class='ab'>
+                    <ul>
+                        <li><a href="/" style="text-decoration:none">Home</a></li>
+                        <li><a href='/predict' style="text-decoration:none">Prediction</a></li>
+                        <li><a href="#" style="text-decoration:none"></a>Current Trend</li>
+                        <li><a href="#" style="text-decoration:none"></a>About Us</li>
+                        <li id='u5'>Login</li>
+                        <li id='u5'>Sign Up</li>
+                    </ul>
+              </div>
+              
+              <div class="main-content"> 
+                <form action="/plot" method="POST">
+                    <br>
+                    <br>
+    <label for='sch'>Enter the Market to search</label><br />
+    
+    <input type="text" name="companyname"></input><br /><br />
+    <input type="submit" name="submit"></input>
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+  </form>
+  </div>
+<marquee>
+  <table class="newsbox" scrollamount="1">
+        <tr>
+            <td>
+                <div>
+                    <a style="display:block;color:black; width: 200px; margin-left: 20px" href="http://www.latimes.com/business/hiltzik/la-fi-hiltzik-cvs-aetna-20171204-story.html" target="_blank" ><b><font color="808080">CVS and Aetna say their huge merger will be great for consumers. Here's why you should be skeptical</font color></b></a>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <a style="display:block;color:black; width: 200px; margin-left: 20px" href="https://www.cnbc.com/2017/12/01/amid-tax-bill-euphoria-one-big-part-of-the-stock-market-is-getting-left-behind-tech.html" target="_blank" ><b><font color="808080">Amid tax-bill euphoria, one big part of the stock market is getting left behind: Tech</font color></b></a>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <a style="display:block;color:black; width: 200px; margin-left: 20px" href="https://www.nytimes.com/2017/12/04/business/dealbook/broadcom-qualcomm.html?rref=collection%2Fsectioncollection%2Fbusiness&action=click&contentCollection=business&region=rank&module=package&version=highlights&contentPlacement=5&pgtype=sectionfront" target="_blank" ><b><font color="808080">Broadcom Puts Qualcomm on the Clock</font color></b></a>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <a style="display:block;color:black; width: 200px; margin-left: 20px" href="https://www.reuters.com/article/us-usa-stocks/dow-hits-record-as-investors-bet-on-tax-cuts-idUSKBN1DY1EP" target="_blank" ><b><font color="808080">Dow hits record as investors bet on tax cuts</font color></b></a>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <a style="display:block;color:black; width: 200px; margin-left: 20px" href="http://www.businessinsider.com/meet-the-paypal-mafia-the-richest-group-of-men-in-silicon-valley-2014-9" target="_blank" ><b><font color="808080">Meet The PayPal Mafia, The Richest Group Of Men In Silicon Valley</font color></b></a>
+                </div>  
+            </td>
+        </tr>
+    </table>
+    </marquee>
+</body>
+</html>
